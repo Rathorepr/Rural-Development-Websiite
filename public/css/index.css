@@ -1,0 +1,511 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+.img{
+    height: 20px;
+    margin-right: 10px;
+}
+#m{
+    text-decoration: none;
+    color: black;
+}
+.data{
+    display: inline-flex;
+    padding: 15px;
+
+}
+.container{
+    background-color: aqua;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.n{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.na{
+    background-color: rgb(125, 33, 33);
+    height: 80px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.navimg{
+    display: flex;
+}
+.navimg img{
+    height: 40px;
+    margin: 20px;
+}
+.na div{
+    display: none;
+}
+
+h1{
+    color: black;
+
+}
+nav{
+    background-color: rgb(125, 33, 33);
+    height: 80px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    text-decoration: none;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+a.active,a:hover{
+    background-color: rgb(117, 235, 225);
+    transition: .5s;
+}
+.sliedbar{
+    height: 500px;
+    width: 68.7%;
+    background-size: cover;
+    margin: auto;
+    background-color: azure;
+    border:10px solid red;
+    animation: change 20s infinite ease-in-out;
+
+}
+
+@keyframes change{
+    0%{
+        background-image: url("college.jpeg");
+    }
+    20%{
+        background-image: url("student.jpeg");
+    }
+    40%{
+        background-image: url("nurse.webp");
+    }
+    60%{
+        background-image: url("hospital.webp");
+    }
+    80%{
+        background-image: url("college.jpeg");
+    }
+    100%{
+        background-image: url("farmer2.jpeg");
+    }
+    
+}
+.ho{
+    height: 80pxpx;
+    width: 100%;
+    position: relative;
+}
+
+.hos{
+   
+    height: 80px;
+    width: 230px;
+   
+    margin: auto ;
+    padding: auto ;
+   
+    
+}
+h1{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 30px;
+    align-items: center;
+    color: white;
+    
+}
+.main{
+    max-width: 100%;
+    height: 300px;
+    margin: 30px auto;
+    background-color: rgb(0, 225, 255);
+    overflow: auto;
+}
+.gal1{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 363.5px;
+}
+.Himg{
+    width: 100%;
+    height: 250px;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+body{
+    background: linear-gradient(to right ,#9AFBFA,#D071F9);
+    
+}
+.google{
+    float: right;
+}
+.footer{
+    margin: 30px;
+    background: #D071F9;
+    height: 400px;
+    width: 100%;
+}
+section h2{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    height: 290px;
+    display: inline-block;
+    overflow: auto;
+    background-color: aquamarine;
+   
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lea{
+    height: 160px;
+    padding: 0 14px;
+    float: left;
+   
+}
+footer{
+    height: 300px;
+    background-color: #ef9953;
+    overflow: auto;
+}
+footer h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    
+}
+.sponser {
+    display: flex;
+    justify-content: space-evenly;
+}
+.spon{
+    height: 161px;
+    max-width: 1000px;
+    margin: auto;
+   
+   
+}
+.ram{
+    margin-left: 20px;
+    height: 200px;
+    
+}
+#heading{
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(20deg,rgb(63, 68, 228),rgb(179, 44, 145),rgb(232, 232, 43),rgb(8, 246, 147));
+    background-size: 300% 300%;
+    border-radius: 0%;
+    margin: 0%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    
+    animation: changeBackgroundColor 5s ease-in-out infinite;
+    
+}
+@keyframes changeBackgroundColor{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 50% 100%;}
+}
+@keyframes colorchange{
+    0%{color: white;}
+    25%{color: rgb(13, 231, 246);}
+    50%{color: #ef9953;}
+    75%{color: yellow;}
+    100%{color: chartreuse;}
+}
+@media screen and (max-width: 1400px){
+    .na{
+        width: 90%;
+    }
+    .sliedbar{
+        width: 88.5%;
+    }
+    .data p {
+        font-size: 20px;
+    }
+    .main .gal1 .desc{
+        font-size: 20px;
+    }
+    .card{
+        width: 45%;
+    }
+   .card3{
+        display: none;
+    }
+    footer{
+        height: 250px;
+    }
+    footer h2{
+        padding: 25px;
+        
+    }
+    .ram{
+        height: 150px;
+        
+    }
+    .gal1{
+        width: 24.3%;
+        margin: 3px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .na{
+        width: 90%;
+    }
+    .sliedbar{
+        width: 88.5%;
+    }
+    .data p {
+        font-size: 20px;
+    }
+    .main .gal1 .desc{
+        font-size: 20px;
+    }
+    .card{
+        width: 45%;
+    }
+   .card3{
+        display: none;
+    }
+    footer{
+        height: 250px;
+    }
+    footer h2{
+        padding: 25px;
+        
+    }
+    .ram{
+        height: 150px;
+        
+    }
+    .gal1{
+        width: 24.3%;
+        margin: 3px;
+    }
+}
+@media screen and (max-width: 992px){
+    .na{
+        width: 98%;
+    }
+    .sliedbar{
+        width: 95.8%;
+    }
+    .gal1{
+        width: 48%;
+    }
+    footer{
+        height: 200px;
+    }
+    footer h2{
+        padding: 20px;
+        
+    }
+    .ram{
+        height: 100px;
+        
+    }
+    .card{
+        width: 49%;
+        margin: 5px;
+        height: 305px;
+    }
+    nav ul{
+        margin-right: 15px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+        text-decoration: none;
+        
+    }
+    nav ul li a{
+        font-size: 14px;
+        padding: 7px 13px;
+        border-radius: 3px;
+    }
+}
+@media screen and (max-width: 768px){
+    nav ul{
+        margin-right: 5px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 3px;
+        text-decoration: none;
+        
+    }
+    nav ul li a{
+        font-size: 10px;
+        padding: 7px 13px;
+        border-radius: 3px;
+    }
+}
+@media screen and (max-width: 600px){
+    .na div{
+        display: block;
+        z-index: 44;
+    }
+    .navimg .img2{
+        display: none;
+    }
+    .navimg .img1{
+        border: 2px solid black;
+    }
+    nav{
+        background-image: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+        background-size: 300% 300%;
+        height: 100%;
+        width: 70%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0%;
+        left: 0%;
+        transform: translateX(100%);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: all 0.3s linear;
+        animation: color 5s ease-in-out infinite;
+    }
+    @keyframes color {
+        0%{background-position: 0 50%;}
+        50%{background-position: 100% 50%;}
+        100%{background-position: 0 50%;}
+        
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .logo{
+        background-color: rgb(13, 239, 152);
+        padding: 20px;
+        margin: 10px;
+        border-radius: 30px;
+    }
+    nav ul li{
+        line-height: 60px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    .active nav{
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .active .navimg .img1{
+        display: none;
+    }
+    .active .navimg .img2{
+        display: block;
+    }
+    footer{
+        height: 200px;
+    }
+    footer h2{
+        padding: 20px;
+        font-size: 20px;
+        
+    }
+    .ram{
+        height: 60px;
+        
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .n{
+        height: 460px;
+    }
+    .sliedbar{
+        height: 340px;
+    }
+    .gal1{
+        width: 99%;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 96%;
+        height: 280px;
+    }
+    .card3{
+        display: block;
+    }
+    footer h2{
+        padding: 20px;
+        font-size: 15px;
+        
+    }
+    .ram{
+        height: 40px;
+        margin: 5px;
+        
+    }
+    #heading{
+        font-size: 25px;
+    }
+    nav ul li{
+        line-height: 50px;
+    }
+}

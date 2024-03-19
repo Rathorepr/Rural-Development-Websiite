@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural development website</title>
+    <!-- <link rel="stylesheet" href="https//fonts.googleapis.com/css2?family=jost:wght@500&display=swap"> -->
+    
+    <link rel="stylesheet" href="css/complain.css">
+    
+   
+</head>
+
+<body>
+  
+
+   
+  <div class="container">
+    <div class="data">
+      <h3 class="contact">Contact Us</h3>
+    </div>
+    <div class="data">
+      <img src="img/call.png"class="img" alt="Call">
+<p>6386561331</p>
+</div>
+<div class="data"> <img class="img"src="img/gmail.png" alt="Mail">
+<p>alokpandey6386561331@gmail.com</p></div>
+<div class="google"id="google_translate_element"></div>
+
+</div>
+<div class="n ">
+  <div class="na active">
+    <div class="logo">Rural</div>
+    <nav>
+      <ul >
+        
+        <li> <a href="/index">Home</a></li>
+        <li> <a href="/health">Health</a></li>
+        <li> <a href="/edu">education</a></li>
+        <li> <a href="/agri">Agriculture</a></li>
+        <li> <a class="active"href="/complain">Complain Box</a></li>
+        <li> <a href="/register">Sing Up/Login</a></li>
+        
+       
+      </ul>
+   </nav>
+   <div class="navimg"> 
+    <img src="img/navigation-bar.png" alt="sss" class="img1">
+    <img src="img/R.png" alt="ttt" class="img2">
+   </div>
+   
+  </div>
+  <section>
+  
+  <h2>Type Complain</h2>
+  <div class="complain1">
+    <form action="/complain" method="post">
+        <label for="chk" aria-hidden="true">Complain Box</label>
+        <input type="text" id="name"name="name" placeholder="User name">
+        <input type="number" name="number"placeholder="Phone number">
+        <input type="email" name="email"placeholder="Email">
+        <textarea  rows="10" cols="40" name="complainbox"placeholder="Complain Box"></textarea>
+        
+        <button type="submit" id="demo"onclick="MyFunction()">Submit</button>
+
+    </form>
+    <br>
+    <br><br>
+  </div>
+  </section>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+      const navimg = document.querySelector(".navimg");
+      const header = document.querySelector(".na");
+  
+      const toggle = () =>{
+        header.classList.toggle("active")
+      }
+      navimg.addEventListener('click',() => toggle());
+    </script>
+</body>
+</html>
